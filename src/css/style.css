@@ -1,0 +1,54 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: Outfit;
+}
+
+.card {
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 300px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px 15px 24px 15px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card__qr {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card__textTitle {
+    color: hsl(218, 44%, 22%);
+    padding: 10px;
+    font-size: 22px;
+    margin-top: 8px;
+}
+
+.card__textDesc {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    margin-top: -8px;
+}
+
+@media screen and (max-width: 780px) {
+    .card {
+        width: 350px;
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+footer {
+    margin-top: 95vh;
+}
