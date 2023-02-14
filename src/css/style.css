@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: hsl(212, 45%, 89%);
     font-family: Outfit;
@@ -11,7 +17,7 @@ body {
     transform: translate(-50%, -50%);
     max-width: 300px;
     background-color: hsl(0, 0%, 100%);
-    padding: 15px 15px 24px 15px;
+    padding: 15px 15px 35px 15px;
     border-radius: 12px;
     text-align: center;
 }
@@ -31,7 +37,7 @@ body {
 .card__textDesc {
     font-size: 15px;
     color: hsl(220, 15%, 55%);
-    margin-top: -8px;
+    margin-top: 8px;
 }
 
 @media screen and (max-width: 780px) {
