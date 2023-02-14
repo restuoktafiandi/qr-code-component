@@ -1,1 +1,1 @@
-Frontend Mentor - QR code component solution
+<a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a> - QR code component solution
