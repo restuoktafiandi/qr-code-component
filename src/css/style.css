@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Outfit;
 }
 
 html {
     font-size: 16px;
+    font-family: Outfit;
 }
 
 main {
@@ -22,7 +22,7 @@ main {
     max-width: 19.3em;
     background-color: hsl(0, 0%, 100%);
     padding: 0.9em 0.9em 2.5em 0.9em;
-    border-radius: 12px;
+    border-radius: 0.8em;
     text-align: center;
 }
 
@@ -45,7 +45,7 @@ main {
 }
 
 footer {
-    padding: 20px 0;
+    padding: 1.3em 0;
     text-align: center;   
 } 
 
